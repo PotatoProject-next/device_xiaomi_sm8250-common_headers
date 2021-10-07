@@ -1,0 +1,1 @@
+cmd_usr/include/xen/.install := /bin/bash /home/sahil/hello/kernel/xiaomi/sm8250/scripts/headers_install.sh ./usr/include/xen /home/sahil/hello/kernel/xiaomi/sm8250/include/uapi/xen evtchn.h gntalloc.h gntdev.h privcmd.h; /bin/bash /home/sahil/hello/kernel/xiaomi/sm8250/scripts/headers_install.sh ./usr/include/xen ./include/generated/uapi/xen ; touch usr/include/xen/.install
